@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay with Crypto - Meowchanic</title>
+  <script src="https://www.blockonomics.co/js/pay-button.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 480px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .logo { width: 160px; margin: 0 auto 16px auto; display: block; }
+    h1 { color: #2d6a4f !important; font-size: 2em !important; font-weight: bold !important; margin-bottom: 8px; }
+    p { color: #555; line-height: 1.6; margin: 8px 0; }
+    .pay-btn-wrap { margin: 20px 0; }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #2d6a4f;
+      color: white !important;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="https://cdn.shopify.com/s/files/1/0811/4123/5926/files/Meowchanic_Logo.jpg?v=1789760345" alt="Meowchanic">
+    <h1>₿ Pay with Crypto</h1>
+    <p>Complete your <strong>Meowchanic</strong> order payment below.</p>
+    <p>Accepted: <strong>Bitcoin (BTC)</strong> and <strong>USDT (ERC20)</strong></p>
+    <div class="pay-btn-wrap">
+      <blockonomics-pay-button uid="28aba5509f9f4c05" label="Pay with Crypto"></blockonomics-pay-button>
+    </div>
+    <p>Questions? <a href="mailto:support@meowchanic.com">support@meowchanic.com</a></p>
+  </div>
+</body>
+</html>
